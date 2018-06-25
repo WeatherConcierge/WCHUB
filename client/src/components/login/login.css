@@ -1,0 +1,16 @@
+.login {
+    background: #25415D;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.login .box  {
+    background: white;
+    height: 550px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22vh;
+}

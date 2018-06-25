@@ -1,0 +1,212 @@
+body{
+  background: #F0F0F0;
+}
+#sidebar{
+  height: 100vh;
+  background: #F0F0F0;
+  width: 5vw;
+  margin-right: 0px;
+  padding-right: 0px;
+  position: absolute;
+  top: 47px;
+}
+
+.ui.visible.uncover.sidebar {
+  background: white;
+  width: 5.5vw;
+}
+.ui.inverted.icon.menu .item {
+  color: #215BA7;
+}
+
+.ui.labeled.icon.menu .item>.icon:not(.dropdown) {
+  font-size: 2.0777788814286em!important;
+  height: 1.0em;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.ui.labeled.icon.menu .item:hover{
+  cursor: pointer;
+}
+.ui.menu {
+
+  background: #215BA7;
+  color: white !important;
+
+}
+.pusher{
+  background: #F0F0F0 !important;
+}
+
+.ui.card, .ui.cards>.card {
+  font-family: sans-serif;
+  width: 35vw;
+  max-width: 450px;
+  max-height: 560px;
+  min-height: 560px;
+  overflow: auto;
+}
+
+.ui.grid {
+  position: absolute;
+  z-index: 44;
+  left: 169px;
+  height: 100vh;
+  overflow: auto;
+  margin-top: 10px;
+}
+
+.navbar {
+  background: #215BA7;
+  margin-bottom: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 222;
+  top: 0;
+  border-radius: 0px;
+  width: 100%;
+}
+.settings {
+  position: absolute;
+  max-width: 100%;
+  z-index: 444;
+  left: 31vw;
+  top: 59px;
+  width: 561px;
+}
+
+.signin-background {
+  background: #142b48;
+  height: 100vh;
+  position: absolute;
+  width: 100vw;
+}
+
+.signin-form{
+  background: white;
+  padding: 29px;
+  border-radius: 10px;
+  padding-top: 60px;
+  padding-bottom: 53px;
+  margin-top: 10vh;
+}
+
+.signin-button{
+  width: 100%;
+  margin-bottom: 16px !important;
+}
+
+.signin-button-container{
+  width: 50%
+}
+
+.signin-button-container .main-button{
+  width: 80%;
+}
+
+
+.ui.inverted.icon.menu .item {
+  color: #215BA7;
+  margin-bottom: 15px;
+}
+
+.story-btn{
+  font-size: 1rem;
+  width: 64%;
+  margin-left: 3vw !important;
+}
+
+.post-image{
+  height: 300px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.Modal-Image{
+  width: 293px;
+  height: 244px;
+
+}
+
+.story-modal{
+  margin-top: -401px;
+  height: 85vh;
+  overflow: auto;
+}
+
+.forecaster-btn{
+  width: 87px;
+    margin-left: 30px !important;
+}
+
+.user-logo {
+  float: right !important;
+  color: white;
+  font-size: 32px !important;
+  margin-top: 14px !important;
+  margin-right: 24px !important;
+}
+
+.location{
+  margin-left: 7vw;
+  margin-top: 18px;
+}
+
+.location span{
+  background: #215BA7;
+  font-size:13px; 
+  margin-right: 12px;
+}
+
+.location-x{
+  color:white;
+  font-size: 13px;
+    font-weight: 300;
+}
+
+.weather-view{
+  height: 478px;
+  margin-bottom: 350px;
+}
+
+.web-logo{
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+  margin-top: 9px;
+  margin-left: 9px;
+}
+
+.special-search input{
+  width: 71vw !important;
+  max-width: 500px;
+  text-align: right;
+}
+
+.results{
+  width: 71vw !important;
+
+}
+
+.post{
+  cursor:pointer;
+}
+
+.description{
+  font-family: 'Lato', sans-serif;
+
+}
+
+
+.forecaster-image{
+  height:384px
+}
+
+.forecaster-card{
+  width: 24vw !important;
+}
+
+.forecaster-btn{
+  width: 243px;
+}
